@@ -16,7 +16,7 @@ Images are:
 The images are splited into 2 parts. In this project the train part consists of 80% of the total images which are used to train the CNN model. THe rest 20% of the images are used to test how well the model is being trained.
 This makes sure that the model is neither overfitted or underfitted the images
 
-##3. Buiding the model using CNN
+## 3.Buiding the model using CNN
 
 I have used 3 layered neural network in this project
 
