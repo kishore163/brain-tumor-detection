@@ -30,7 +30,10 @@ In 2nd layer also the kernel size is (2,2) and relu is used as the activation fu
 Here we flatten our array to a single dimension and again apply relu function
 
 Fully connected layer:
-In binary/multivariate class classification this layer holds the probability of data belonging to a particular class
+This layer acts as the output layer for the network and has the output volume dimension as [1 x 1 x N] where N is the number of output classes to be evaluated.
+In binary/multivariate class classification this layer holds the probability of data belonging to a particular class N
+
+###### Pooling layers are applied between convulational layers to progressively reduce the spatial size of the data representation and thus prevent overfitting on the training data.
 
 ## 4. Evaluating the model
 The model is evaluated to find out its accuracy
